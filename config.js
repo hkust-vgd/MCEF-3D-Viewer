@@ -44,7 +44,7 @@ export const SITES = [
     description: 'Underwater 3D reconstructions collected around Lamma Island.',
     reconstructions: [
       { id: 'lamma-1', title: 'Lamma — Scene 1', url: 'https://statics.hkustvgd.com/viser/potoi_19.ply' },
-      { id: 'lamma-2', title: 'Lamma — Scene 2', url: 'https://statics.hkustvgd.com/viser/potoi_19.ply' },
+      { id: 'lamma-2', title: 'Lamma — Scene 2', url: 'https://statics.hkustvgd.com/viser/potoi_41.ply' },
     ],
   },
   {
@@ -54,8 +54,8 @@ export const SITES = [
     lng: 113.917433,
     description: 'Underwater 3D reconstructions collected around the Soko Islands.',
     reconstructions: [
-      { id: 'soko-1', title: 'Soko — Scene 1', url: 'https://statics.hkustvgd.com/viser/potoi_13_clean.ply' },
-      { id: 'soko-2', title: 'Soko — Scene 2', url: 'https://statics.hkustvgd.com/viser/potoi_13_clean.ply' },
+      { id: 'soko-1', title: 'Soko — Scene 1', url: 'https://statics.hkustvgd.com/viser/potoi_37.ply' },
+      { id: 'soko-2', title: 'Soko — Scene 2', url: 'https://statics.hkustvgd.com/viser/potoi_41.ply' },
     ],
   },
 ];
