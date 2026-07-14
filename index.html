@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCEF — Underwater 3D Reconstructions</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header id="topbar">
+    <span class="brand">MCEF</span>
+    <span class="subtitle">Underwater 3D Reconstructions · Hong Kong</span>
+  </header>
+
+  <main id="map"></main>
+
+  <!-- Location side panel (slides in from the right) -->
+  <aside id="panel" class="panel">
+    <button id="panel-close" class="iconbtn" title="Close" aria-label="Close">✕</button>
+    <h2 id="panel-title"></h2>
+    <p id="panel-desc"></p>
+    <div id="panel-list"></div>
+  </aside>
+
+  <!-- 3D viewer overlay -->
+  <div id="viewer">
+    <div id="viewer-toolbar">
+      <button id="viewer-back" class="iconbtn" title="Back to list">← Back</button>
+      <span id="viewer-title"></span>
+      <div id="viewer-controls">
+        <label>Point size <input type="range" id="point-size" /></label>
+        <button id="viewer-reset" class="iconbtn">Reset view</button>
+      </div>
+    </div>
+    <canvas id="viewer-canvas"></canvas>
+    <div id="viewer-loading">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading point cloud…</div>
+      <div class="loading-bar"><div id="loading-fill"></div></div>
+    </div>
+    <div id="viewer-error" class="hidden"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
