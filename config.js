@@ -13,8 +13,8 @@ export const SITES = [
   {
     id: 'potoi',
     name: 'Po Toi Island',
-    lat: 22.1628,
-    lng: 114.2553,
+    lat: 22.172185,
+    lng: 114.278082,
     description: 'Underwater 3D reconstructions collected off Po Toi Island, southern Hong Kong.',
     reconstructions: [
       { id: 'potoi-1', title: 'Po Toi — Scene 1', url: 'https://statics.hkustvgd.com/viser/potoi_19.ply' },
@@ -28,8 +28,8 @@ export const SITES = [
   {
     id: 'portshelter',
     name: 'Port Shelter',
-    lat: 22.3433,
-    lng: 114.238,
+    lat: 22.332405,
+    lng: 114.291133,
     description: 'Underwater 3D reconstructions collected off Port Shelter, southern Hong Kong.',
     reconstructions: [
       { id: 'portshelter-1', title: 'Port Shelter — Scene 1', url: 'https://statics.hkustvgd.com/viser/saikung_13.ply' },
@@ -39,8 +39,8 @@ export const SITES = [
   {
     id: 'lamma',
     name: 'Lamma Island',
-    lat: 22.2083,
-    lng: 114.1083,
+    lat: 22.184674,
+    lng: 114.138458,
     description: 'Underwater 3D reconstructions collected around Lamma Island.',
     reconstructions: [
       { id: 'lamma-1', title: 'Lamma — Scene 1', url: 'https://statics.hkustvgd.com/viser/potoi_19.ply' },
@@ -50,8 +50,8 @@ export const SITES = [
   {
     id: 'soko',
     name: 'Soko Islands',
-    lat: 22.2083,
-    lng: 113.9167,
+    lat: 22.178610,
+    lng: 113.917433,
     description: 'Underwater 3D reconstructions collected around the Soko Islands.',
     reconstructions: [
       { id: 'soko-1', title: 'Soko — Scene 1', url: 'https://statics.hkustvgd.com/viser/potoi_13_clean.ply' },
