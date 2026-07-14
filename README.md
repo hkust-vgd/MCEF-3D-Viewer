@@ -40,6 +40,10 @@ export const SITES = [
 ];
 ```
 
+### Semantic segmentation (side by side)
+
+For every scene the viewer automatically also loads `X_semantic.ply` — the same point cloud colored by semantic class — and shows it next to the RGB view with a synced camera. No extra config: just upload `<scene>_semantic.ply` alongside `<scene>.ply` (the URL is derived by inserting `_semantic` before `.ply`). If the semantic file is missing, that pane shows "Semantic unavailable" and the RGB pane still works.
+
 ## CORS (required — read this)
 
 The site runs on `https://<user>.github.io` but loads `.ply` files from an external host. Browsers block cross-origin fetches unless the host sends an `Access-Control-Allow-Origin` header. For each host serving `.ply` files, ensure responses include:

@@ -17,9 +17,23 @@ export const SITES = [
     lng: 114.2553,
     description: 'Underwater 3D reconstructions collected off Po Toi Island, southern Hong Kong.',
     reconstructions: [
-      { id: 'potoi-1', title: 'Po Toi — Scene 1', url: 'https://PLACEHOLDER.example/potoi_1.ply' },
-      { id: 'potoi-2', title: 'Po Toi — Scene 2', url: 'https://PLACEHOLDER.example/potoi_2.ply' },
-      { id: 'potoi-3', title: 'Po Toi — Scene 3', url: 'https://PLACEHOLDER.example/potoi_3.ply' },
+      { id: 'potoi-1', title: 'Po Toi — Scene 1', url: 'https://statics.hkustvgd.com/viser/potoi_19.ply' },
+      { id: 'potoi-2', title: 'Po Toi — Scene 2', url: 'https://statics.hkustvgd.com/viser/potoi_36.ply' },
+      { id: 'potoi-3', title: 'Po Toi — Scene 3', url: 'https://statics.hkustvgd.com/viser/potoi_37.ply' },
+      { id: 'potoi-4', title: 'Po Toi — Scene 4', url: 'https://statics.hkustvgd.com/viser/potoi_41.ply' },
+      { id: 'potoi-5', title: 'Po Toi — Scene 5', url: 'https://statics.hkustvgd.com/viser/potoi_42.ply' },
+      { id: 'potoi-6', title: 'Po Toi — Scene 6', url: 'https://statics.hkustvgd.com/viser/potoi_43.ply' },
+    ],
+  },
+  {
+    id: 'portshelter',
+    name: 'Port Shelter',
+    lat: 22.3433,
+    lng: 114.238,
+    description: 'Underwater 3D reconstructions collected off Port Shelter, southern Hong Kong.',
+    reconstructions: [
+      { id: 'portshelter-1', title: 'Port Shelter — Scene 1', url: 'https://statics.hkustvgd.com/viser/saikung_13.ply' },
+      { id: 'portshelter-2', title: 'Port Shelter — Scene 2', url: 'https://statics.hkustvgd.com/viser/saikung_18.ply' },
     ],
   },
   {
@@ -29,8 +43,8 @@ export const SITES = [
     lng: 114.1083,
     description: 'Underwater 3D reconstructions collected around Lamma Island.',
     reconstructions: [
-      { id: 'lamma-1', title: 'Lamma — Scene 1', url: 'https://PLACEHOLDER.example/lamma_1.ply' },
-      { id: 'lamma-2', title: 'Lamma — Scene 2', url: 'https://PLACEHOLDER.example/lamma_2.ply' },
+      { id: 'lamma-1', title: 'Lamma — Scene 1', url: 'https://statics.hkustvgd.com/viser/potoi_19.ply' },
+      { id: 'lamma-2', title: 'Lamma — Scene 2', url: 'https://statics.hkustvgd.com/viser/potoi_19.ply' },
     ],
   },
   {
@@ -40,19 +54,8 @@ export const SITES = [
     lng: 113.9167,
     description: 'Underwater 3D reconstructions collected around the Soko Islands.',
     reconstructions: [
-      { id: 'soko-1', title: 'Soko — Scene 1', url: 'https://PLACEHOLDER.example/soko_1.ply' },
-      { id: 'soko-2', title: 'Soko — Scene 2', url: 'https://PLACEHOLDER.example/soko_2.ply' },
-    ],
-  },
-  {
-    id: 'sharp',
-    name: 'Sharp Island',
-    lat: 22.3733,
-    lng: 114.2967,
-    description: 'Underwater 3D reconstructions collected around Sharp Island (Kiu Tsui).',
-    reconstructions: [
-      { id: 'sharp-1', title: 'Sharp Island — Scene 1', url: 'https://PLACEHOLDER.example/sharp_1.ply' },
-      { id: 'sharp-2', title: 'Sharp Island — Scene 2', url: 'https://PLACEHOLDER.example/sharp_2.ply' },
+      { id: 'soko-1', title: 'Soko — Scene 1', url: 'https://statics.hkustvgd.com/viser/potoi_13_clean.ply' },
+      { id: 'soko-2', title: 'Soko — Scene 2', url: 'https://statics.hkustvgd.com/viser/potoi_13_clean.ply' },
     ],
   },
 ];
